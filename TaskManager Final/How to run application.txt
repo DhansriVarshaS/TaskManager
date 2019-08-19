@@ -1,0 +1,12 @@
+
+
+1-> Go to  C:\Program Files\Apache Software Foundation\Tomcat 8.0\bin and start server by opening  Tomcat8 application file.
+
+2->Start MYSQL server by  opening SQL workbench  with username as "root" and password as "pass@word1".Now Database connection is opened.
+
+3-> Open command promt from path C:\SBA Final\SBA web. Start angular server using command "ng serve"
+ and then the application willl start at port no 4200.
+ 
+4-> Open browser and use this url http://localhost:8080/job/SBA%20Final/ . username is "admin" and password is "pass@word1". Then generate build in jenkins. It will automatically deploy java services in tomcat server at port no 8081.
+
+5-> Now all services and DB connections are up.Use http://localhost:4200 in browser to view application.
